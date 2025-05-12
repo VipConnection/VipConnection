@@ -4,9 +4,9 @@ google.charts.load('current', { packages:['orgchart'] });
 google.charts.setOnLoadCallback(drawChart);
 
 async function drawChart() {
-  const sheetId  = '1p6hq4WWXzwUQfU3DqWsp1H50BWHqS93sQIPioNy9Cbs';   // Reemplaza por tu ID de Spreadsheet
+  const sheetId  = '1Cohw3JDwd_zAFHnfzc3GqAEOOutQEnP7XB9dzD0mzx4';   // Reemplaza por tu ID de Spreadsheet
   const sheetGid = '0';  // Reemplaza por el GID de la pestaña “Usuarios”
-  const csvUrl   = `https://docs.google.com/spreadsheets/d/${sheetId}/export?format=csv&gid=${sheetGid}`;
+  const csvUrl   = `https://docs.google.com/spreadsheets/d/${1Cohw3JDwd_zAFHnfzc3GqAEOOutQEnP7XB9dzD0mzx4}/export?format=csv&gid=${0}`;
   const errorDiv = document.getElementById('error');
 
   try {
